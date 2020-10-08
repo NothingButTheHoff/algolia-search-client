@@ -1,0 +1,51 @@
+.app {
+  padding: 20px;
+  display: flex;
+}
+.search-stats {
+  font-size: 10px;
+  margin-bottom: 6px;
+}
+.search-container  {
+  width: 600px;
+}
+.search-container input{
+  height: 36px;
+  border-radius: 6px;
+  border: 1px solid #345;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+  width: 95%;
+  padding: 0 8px;
+}
+
+.result-item {
+  font-size: 12px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+}
+.result-item .name {
+
+  font-weight: bold;
+}
+
+.result-item .description {
+  font-size: 10px;
+}
+
+.result-item .price {
+  font-size: 10px;
+  font-weight: bold;
+  margin: 6px 0;
+
+}
+
+.result-item img {
+  height: 80px;
+}
+
+
+
